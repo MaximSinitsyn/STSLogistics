@@ -1,0 +1,104 @@
+.disp-off {
+    display: none;
+}
+
+.disp-on {
+    display: block;
+}
+
+@media only screen and (min-width: 481px)  {
+    .disp-off-small {
+        display: none;
+    }
+
+    .disp-on-small {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 768px)  {
+    .disp-off-medium {
+        display: none;
+    }
+
+    .disp-on-medium {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 961px)  {
+    .disp-off-large {
+        display: none;
+    }
+
+    .disp-on-large {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1221px)  {
+    .disp-off-xlarge {
+        display: none;
+    }
+
+    .disp-on-xlarge {
+        display: block;
+    }  
+}
+
+body > .uk-grid, body > .uk-grid > .uk-width-1-1 > .uk-grid, .uk-sticky-placeholder > div > .uk-grid, .uk-sticky-placeholder > div > .uk-grid > .uk-width-1-1 > .uk-grid  {
+    margin-left: 21px;
+}
+
+body > .uk-grid > .uk-width-1-1 > .uk-grid > *:first-child, .uk-sticky-placeholder > div > .uk-grid > .uk-width-1-1 > .uk-grid > *:first-child,
+.uk-grid-divider > * {
+    padding-left: 0;
+}
+
+body > .uk-grid > .uk-width-1-1 > .uk-grid, .uk-sticky-placeholder > div > .uk-grid > .uk-width-1-1 > .uk-grid {
+    padding: 0 21px 0 0;
+}
+
+body > .uk-grid > .uk-width-1-1, .uk-sticky-placeholder > div > .uk-grid > .uk-width-1-1 {
+    padding: 0px;
+    max-width: 1240px;
+   	margin: 0 auto;
+}
+
+body > .uk-grid > .uk-width-1-1 > .uk-grid > *:first-child, .uk-sticky-placeholder > div > .uk-grid > .uk-width-1-1 > .uk-grid > *:first-child, .uk-grid-divider > * {
+    padding-left: 21px;
+}
+
+body > .uk-grid {
+    position: relative;
+    margin-left: -21px;
+}
+
+.uk-grid {
+    margin-left: 0px;
+}   
+
+body > .header-container .uk-grid-divider>div {
+    padding-right: 0px;
+}
+
+body>div>.uk-grid>.uk-width-1-1, body>.uk-grid>.uk-width-1-1 {
+    padding-left: 0px;
+    
+}
+
+.uk-grid > * {
+    /* padding-left: 21px; */
+}
+
+.uk-width-1-1>.uk-grid {
+    padding-right: 21px;
+}
+
+.uk-grid + .uk-grid, .uk-grid-margin, .uk-grid > * > .uk-panel + .uk-panel {
+    margin-top: 21px;
+}
+
+.uk-grid.header-container > .uk-width-1-1 > .uk-grid {
+    position: relative;
+}
